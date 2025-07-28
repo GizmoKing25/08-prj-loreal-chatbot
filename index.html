@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat Assistant</title>
+    <title>L'Oréal Chatbot</title>
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
@@ -19,7 +19,9 @@
     <div class="page-wrapper">
       <!------- Header / Branding ------->
       <header class="site-header">
-        <h1 class="site-title">Smart Product Advisor</h1>
+        <img src="loreal-logo.png" alt="L'Oréal Logo" class="logo" />
+        <h1 class="site-title">L'ORÉAL</h1>
+        <div class="site-subtitle">Smart Routine &amp; Product Advisor</div>
       </header>
 
       <!------- Chat Area ------->
@@ -35,13 +37,13 @@
               id="userInput"
               name="userInput"
               type="text"
-              placeholder="Ask me about products or routines…"
+              placeholder="Ask me about any L'Oréal product or routine..."
               autocomplete="off"
               required
             />
-            <button type="submit" id="sendBtn">
-              <span class="material-icons">send</span>
+            <button type="submit" id="sendBtn" aria-label="Send">
               <span class="visually-hidden">Send</span>
+              ▶
             </button>
           </form>
         </section>
@@ -49,7 +51,7 @@
 
       <!------- Footer Links ------->
       <footer class="site-footer">
-        <p>&copy; 2025 Company Name. All rights reserved.</p>
+        <p>&copy; 2025 L'Oréal. All rights reserved.</p>
         <nav>
           <!-- These URLs are placeholders -->
           <a href="#">Privacy Policy</a>
